@@ -1,0 +1,97 @@
+
+.header_navbarItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 70px;
+  }
+  
+  .header_nav_menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+  }
+
+  .header_nav_links{
+      margin: 0 10px;
+  }
+
+  .prof{
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 10px;
+
+  }
+
+  .prof h6{
+      font-size: 14px;
+      margin: 0;
+  }
+
+  .prof p {
+      font-size: 10px;
+    color: #777;
+    /* margin: 0; */
+  }
+
+
+  .searchbox_sm {
+    --height: 40px;
+    --borderRad: 6px;
+    /* width: 95%; */
+    /* height: var(--height); */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    /* padding-left: 10px; */
+    /* padding: 10px 0px 10px 10px; */
+    /* border: 2px solid rgb(5, 130, 134) !important; */
+    border-radius: var(--borderRad);
+  }
+  
+  .MuiSvgIcon-root{
+    font-size: 25px;
+    color: #777;
+  }
+  
+  .searchbox_sm_input {
+    flex: 1;
+    /* height: 40px; */
+    border: none;
+    background-color: transparent;
+    outline: none;
+    /* padding: 10px; */
+  }
+
+  .dropdown {
+    position: relative;
+    top: 20px;
+    right: 120px;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    /* min-width: 160px; */
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .show{
+    display: block;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
